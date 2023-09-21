@@ -1,2 +1,2 @@
-# emmy-test
-Emmy test
+# emmy-new
+A generator for Emmy applications
