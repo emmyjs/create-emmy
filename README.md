@@ -1,2 +1,2 @@
 # emmy-new
-A generator for Emmy applications
+An Emmy.js applications generator

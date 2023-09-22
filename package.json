@@ -1,0 +1,28 @@
+{
+  "name": "emmy-new",
+  "version": "1.0.0",
+  "description": "An Emmy.js applications generator",
+  "main": "new.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eanorambuena/emmy-new.git"
+  },
+  "keywords": [
+    "frontend",
+    "web-components",
+    "components"
+  ],
+  "author": "Emmanuel Norambuena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eanorambuena/emmy-new/issues"
+  },
+  "homepage": "https://github.com/eanorambuena/emmy-new#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "emmy-dom": "0.0.1"
+  }
+}
