@@ -1,14 +1,17 @@
 {
-  "name": "emmy-new",
+  "name": "create-emmy",
   "version": "1.0.0",
   "description": "An Emmy.js applications generator",
-  "main": "new.js",
+  "main": "createEmmy.js",
+  "bin": {
+    "create-emmy": "./createEmmy.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eanorambuena/emmy-new.git"
+    "url": "git+https://github.com/eanorambuena/create-emmy.git"
   },
   "keywords": [
     "frontend",
@@ -18,11 +21,14 @@
   "author": "Emmanuel Norambuena",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eanorambuena/emmy-new/issues"
+    "url": "https://github.com/eanorambuena/create-emmy/issues"
   },
-  "homepage": "https://github.com/eanorambuena/emmy-new#readme",
+  "homepage": "https://github.com/eanorambuena/create-emmy#readme",
   "dependencies": {
-    "commander": "^11.0.0",
-    "emmy-dom": "0.0.1"
+    "chalk": "4.1.2",
+    "commander": "11.0.0",
+    "emmy-dom": "^0.0.2",
+    "figlet": "^1.6.0",
+    "inquirer": "8.0.0"
   }
 }
