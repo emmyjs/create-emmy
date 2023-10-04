@@ -13,6 +13,7 @@ program
     .option('--vanilla', 'Create a Vanilla JS app')
     .option('--tailwind', 'Use TailwindCSS')
     .option('-v, --version', 'Print version number')
+    .option('--run', 'Run the app after creation')
     .parse(process.argv);
 
 const options = program.opts();
