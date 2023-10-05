@@ -10,7 +10,7 @@ const program = new Command();
 program
     .description('Create Emmy App')
     .option('--rails', 'Create a Rails app')
-    .option('--vanilla', 'Create a Vanilla JS app')
+    .option('--vanilla', 'Create a Vanilla app')
     .option('--tailwind', 'Use TailwindCSS')
     .option('-v, --version', 'Print version number')
     .option('--run', 'Run the app after creation')
@@ -39,7 +39,13 @@ else {
     (async() => {
         banner('create-emmy');
         const params = await queryParams();
-        if (params.type == 'Vanilla JS') createVanillaProject(params);
-        else createRailsProject(params);
+        if (params.type == 'Vanilla') {
+            params.vanilla = true;
+            createVanillaProject(params);
+        }
+        else {
+            params.rails = true;
+            createRailsProject(params);
+        }
     })();
 }
