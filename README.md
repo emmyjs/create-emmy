@@ -1,5 +1,6 @@
 # create-emmy
 An Emmy.js applications generator
+[More information about Emmy.js](https://eanorambuena.github.io/Emmy.js/)
 
 ## Quick start
 Just run the following command to create a new Emmy.js application using Create Emmy CLI:
