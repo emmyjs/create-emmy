@@ -28,7 +28,7 @@
     "chalk": "4.1.2",
     "commander": "11.0.0",
     "emmy-dom": "^0.0.2",
-    "figlet": "^1.6.0",
+    "figlet": "1.6.0",
     "inquirer": "8.0.0"
   }
 }
