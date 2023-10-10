@@ -1,6 +1,16 @@
-# create-emmy
-An Emmy.js applications generator
-[More information about Emmy.js](https://eanorambuena.github.io/Emmy.js/)
+<section align="center" style="display: flex; flex-direction: column">
+  <h1>create-emmy</h1>
+  <div>
+    <img alt="npm" src="https://img.shields.io/npm/v/create-emmy"/>
+    <img alt="npm" src="https://img.shields.io/npm/dt/create-emmy"/>
+    <img alt="NPM" src="https://img.shields.io/npm/l/create-emmy"/>
+    <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/emmyjs/create-emmy"/>
+    <img alt="npm package minimized gzipped size (select exports)" src="https://img.shields.io/bundlejs/size/create-emmy"/>
+  </div>
+  <i>An Emmy.js applications generator</i><br />
+  <a href="https://emmyjs.github.io/">More information about Emmy.js</a>
+</section>
+<hr />
 
 ## Quick start
 Just run the following command to create a new Emmy.js application using Create Emmy CLI:
