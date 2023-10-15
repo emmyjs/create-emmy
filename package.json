@@ -1,6 +1,6 @@
 {
   "name": "create-emmy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Emmy.js applications generator",
   "main": "createEmmy.js",
   "bin": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "chalk": "4.1.2",
     "commander": "11.0.0",
-    "emmy-dom": "^0.0.2",
+    "emmy-dom": "^0.0.3",
     "figlet": "1.6.0",
     "inquirer": "8.0.0"
   },
