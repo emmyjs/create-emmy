@@ -23,10 +23,10 @@ For creating a new Emmy.js application with Ruby on Rails and TailwindCSS, just 
 npx create-emmy my-app --rails --tailwind --run
 ```
 
-### Creating a Vanilla JS + Emmy.js application
-For creating a new Emmy.js application with Vanilla, just run the following command:
+### Creating a Vanilla JS + Emmy.js + TailwindCSS application
+For creating a new Emmy.js application with Vanilla Vite and TailwindCSS, just run the following command:
 ```bash
-npx create-emmy my-app --vanilla
+npx create-emmy my-app --vanilla --tailwind --run
 ```
 
 ## Options
