@@ -14,6 +14,7 @@ program
     .option('--tailwind', 'Use TailwindCSS')
     .option('-v, --version', 'Print version number')
     .option('--run', 'Run the app after creation')
+    .option('--prerender', 'Use prerendering')
     .parse(process.argv);
 
 const options = program.opts();
@@ -22,7 +23,6 @@ if (process.argv.length >= 3) {
     const name = process.argv[2];
     options.name = name;
 }
-
 if (options.version) {
     assertArgs();
     printVersion();
