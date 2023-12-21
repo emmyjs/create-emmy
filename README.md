@@ -30,9 +30,9 @@ npx create-emmy my-app --vanilla --tailwind --run
 ```
 
 ## Options
-- `--vanilla` - Creates a Vanilla application uing Vite
+- `--vanilla` - Creates a Vanilla application using Vite
 - `--rails` - Creates a Ruby on Rails application
 - `--tailwind` - Adds TailwindCSS to the application
-- `--prerender` - 
+- `--prerender` - Adds prerendering to the application (only for Vanilla applications)
 - `--run` - Runs the application after creation
 - `-v, --version` - Output the version number
