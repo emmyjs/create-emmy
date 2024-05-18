@@ -45,6 +45,7 @@ else {
         }
         else {
             params.rails = true;
+            params.prerender = false;
             createRailsProject(params);
         }
     })();
