@@ -7,7 +7,7 @@
     <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/emmyjs/create-emmy"/>
   </div>
   <i>An Emmy.js applications generator</i><br />
-  <a href="https://emmyjs.github.io/">More information about Emmy.js</a>
+  <a href="https://emmyjs.pages.dev/">More information about Emmy.js</a>
 </section>
 <hr />
 
